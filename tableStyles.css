@@ -4,7 +4,7 @@
     --clr-prime: #003c5e;
     --clr-second: #1a2028;
     --clr-accent: #a2ce06;
-    --clr-font-prime: #6da7cc;
+    --clr-font-prime: #8ac1e4;
     --clr-font-second: black;
     --clr-background: #e6e6ff;
 }
@@ -23,7 +23,7 @@ body {
     justify-content: center;
     background-color: var(--clr-background);
 }
-/* border added here */
+/* border added here (increased size to 5px) */
 table {
     border-collapse: collapse;
     box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.2);
