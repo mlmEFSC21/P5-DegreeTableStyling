@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap");
+
+:root {
+    --clr-prime: #003c5e;
+    --clr-second: #1a2028;
+    --clr-accent: #a2ce06;
+    --clr-font-prime: #6da7cc;
+    --clr-font-second: black;
+    --clr-background: #e6e6ff;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Spectral, sans-serif;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-background);
+}
+/* border added here */
+table {
+    border-collapse: collapse;
+    box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid black;
+    padding: 0.25rem;
+}
+/* centered text of first to rows (table header) */
+thead {
+    text-align: center;
+}
+/* used two classes to change the sizes, decorations, etc. */
+.tableTitle {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+}
+.colTitles {
+    font-size: 14pt;
+    text-decoration: underline;
+}
+th {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+/* added the font size and text alignment for the row data here */
+td {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    font-size: 12pt;
+    text-align: left;
+}
+tr:nth-child(odd) {
+    background-color: var(--clr-font-prime);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: var(--clr-prime);
+    text-decoration: underline;
+}
