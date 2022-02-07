@@ -23,20 +23,23 @@ body {
     justify-content: center;
     background-color: var(--clr-background);
 }
-caption {
-    letter-spacing: 0.15rem;
-    font-weight: 900;
-}
 table {
     border-collapse: collapse;
     box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.2);
-    border: 2px solid black;
+    border: 5px solid black;
     padding: 0.25rem;
 }
 thead {
-    letter-spacing: 0.15rem;
-    font-size: 0.85rem;
-    font-weight: 900;
+    text-align: center;
+}
+.tableTitle {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+}
+.colTitles {
+    font-size: 14pt;
+    text-decoration: underline;
 }
 th {
     border: 1px solid black;
@@ -45,8 +48,8 @@ th {
 td {
     border: 1px solid black;
     padding: 0.5rem 1rem;
-    align-items: center;
-    justify-content: center;
+    font-size: 12pt;
+    text-align: left;
 }
 a {
     text-decoration: none;
