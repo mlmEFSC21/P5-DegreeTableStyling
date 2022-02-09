@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tableContainer {
+    align-content: center;
+}
+.flexContainer {
+    display: flex;
+    gap: 15px 30px;
+    align-items: baseline;
+    align-content: space-between;
+}
+button {
+    padding: 10px;
+}
